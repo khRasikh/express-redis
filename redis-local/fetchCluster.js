@@ -1,4 +1,4 @@
-const redis = require("../redis-local/node_modules/redis/dist");
+const redis = require("redis");
 const cluster = redis.createClient();
 
 module.exports = async (req, rep) => {
